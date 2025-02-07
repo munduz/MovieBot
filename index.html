@@ -9,12 +9,26 @@
             background-color: black;
             color: white;
             font-family: Poppins, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            margin: 0;
+        }
+        p {
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
     <h1>Welcome to MovieBot!</h1>
-    <p>Let's help you pick a movie to watch!</p>
+    <p>Click the MovieBot icon in the bottom left corner to start your movie selection!</p>
+
+    <!-- Link to arrow image -->
+    <a href="https://imgur.com/zDYhQoA" target="_blank">
+        <img src="https://imgur.com/zDYhQoA" alt="Click here to open MovieBot" style="width: 50px; height: auto;">
+    </a>
 
     <!-- Embed MovieBot -->
     <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
